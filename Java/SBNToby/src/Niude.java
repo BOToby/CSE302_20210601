@@ -42,7 +42,6 @@ public class Niude {
                     Scanner ss = new Scanner(System.in);
                     System.out.print("Give the the symbol you want to use in graph (tacitly '#'):");
                     sym = ss.next().charAt(0);
-                    ss.close();
                     break;
                 }
                 else if (inp.equals("C") || inp.equals("c")) break;
